@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+    <html lang="pt-br">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula 07</title>
+</head>
+<body>
+    <script>
+            //fazer jogador1 digitar um numero
+        var j1= prompt('Jogador Digite Um Numero');
+        j1= parseInt(j1)
+            //fazer jagador2 digitar um numero 
+        var j2= prompt('Jodor2 Digite Outro Numero');
+        j2= parseInt(j2)
+        if(j1 === j2){
+            alert('Voces Empataram')
+        }else{
+            var nsorteado = parseInt(Math.random() * 2 );
+            alert('nsorteado:' + nsorteado);
+        }
+        if(nsorteado === 0 && j1 < j2 || nsorteado === 1 && j1 > j2  ){
+            alert('Ganhou o Jogador, 1');
+        }else{
+            alert('Ganhou o Jagador, 2');
+        }
+    
+    
+    </script>
+</body>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aulas 08</title>
+</head>
+<body>
+    <script>
+        var nota1 = prompt('Qual e a Primeria Nota');
+            nota1 = parseFloat(nota1);
+        var nota2 = prompt("Qual e a Segunda Nota");
+            nota2 = parseFloat(nota2);
+        var media = (nota1 + nota2) / 2;
+        /*if(media>5 && nota1>0 && nota2>0){
+            alert('parabens');
+            }else{
+                alert('reprovado');
+            }*/
+            if(nota1 ===0 || nota2 ===0 || media <=5){
+                alert('desculpe nao foi dessa vez ');
+            }else{
+                alert('parabens voce foi  aprovado')
+            }
+    </script>
+    
+</body>
+</html>

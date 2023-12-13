@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>05</title>
+</head>
+<body>
+    <script>
+                    /*(exercicio errado)
+        //pedir para o usuario  digitar um numero
+        var nume1 = prompt("Digite Um Numero");
+            //converto em numero inteiro
+        nume1 = parsefloat(nume1);
+            //pedir para o usuario digitar o segundo 
+        var nume2 = prompt("Digite o Segundo Numero");
+            //converto de numero inteiro
+        nume2 = parsefloat(nume2);
+            mostra num alert o seguinte  texto o resto da divisao  de (nume1) por (nume2) é: (resultado;)
+        var midia = (`O Resto  Da Divisao De ${nume1} por ${nume2}  ` + (nume1 / nume2) );
+        alert(midia)
+            /*mostrar num alert o seguinte texto o numero (nume1) elevado (nume2) é:(resultado)
+        var media = (`O Numero ${nume1} Elevado A ${nume2} É: ,` + (nume1 ** nume2));
+        alert(media)*/
+    </script>
+    
+    <script>
+                //exercicio certo
+            //pedir para o usuario  digitar um numero
+        var nume1 = prompt("Digite Um Numero");
+            //converto em numero inteiro
+        nume1 = parseInt(nume1);
+            //pedir para o usuario digitar o segundo 
+        var nume2 = prompt("Digite o Segundo Numero");
+            //converto de numero inteiro
+        nume2 = parseInt(nume2);
+            /*mostra num alert o seguinte  texto: o resto da divisao  de (nume1) por (nume2) é: (resultado;)*/
+        var midia = ("O Resto Da Divisao De, "  + (nume1) + " Por, " + (nume2) + " É: "  + (nume1 % nume2));
+        alert(midia);
+            /*mostrar num alert o seguinte texto: o numero (nume1) elevado (nume2) é:(resultado)*/
+        var media = ("O Numero, " + (nume1) +  "  Elevado,  "  + (nume2) + "  É:  "  + (nume1 ** nume2));
+alert(media)
+</script>
+</body>
+</html>
