@@ -1,2 +1,2 @@
 # logica-em-javascript
-// esse repositorio e das aulas do serliv
+// esse repositorio e das aulas do serliv //
